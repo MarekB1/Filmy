@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Meno
+        span: auto
+
+    last_name:
+        label: Priezvisko
+        span: auto
+    
+    year_of_birth:
+        label: Rok narodenia
+        type: number
+        span: auto

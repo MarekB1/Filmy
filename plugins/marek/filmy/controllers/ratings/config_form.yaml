@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Rating
+
+# Model Form Field configuration
+form: $/marek/filmy/models/rating/fields.yaml
+
+# Model Class name
+modelClass: Marek\Filmy\Models\Rating
+
+# Default redirect location
+defaultRedirect: marek/filmy/ratings
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: marek/filmy/ratings/update/:id
+    redirectClose: marek/filmy/ratings
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: marek/filmy/ratings
+    redirectClose: marek/filmy/ratings
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Release
+
+# Model Form Field configuration
+form: $/marek/filmy/models/release/fields.yaml
+
+# Model Class name
+modelClass: Marek\Filmy\Models\Release
+
+# Default redirect location
+defaultRedirect: marek/filmy/releases
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: marek/filmy/releases/update/:id
+    redirectClose: marek/filmy/releases
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: marek/filmy/releases
+    redirectClose: marek/filmy/releases
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

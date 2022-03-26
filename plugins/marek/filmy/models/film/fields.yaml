@@ -1,0 +1,37 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Názov
+
+    genre:
+        label: Žáner
+        type: relation
+        span: auto
+        nameFrom: genre
+
+    director:
+        label: Režisér
+        type: relation
+        span: auto
+        nameFrom: name
+
+    release:
+        label: Rok vydania
+        # type: relation
+        span: auto
+        # nameFrom: release
+
+    rating:
+        label: Hodnotenie
+        # type: relation
+        span: auto
+        # nameFrom: rating
+
+    poster:
+        label: Plagát
+        type: fileupload
+        mode: image
+        

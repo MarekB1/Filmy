@@ -1,0 +1,33 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    name:
+        label: Názov
+        # type: relation
+
+    genre:
+        label: Žáner
+        # type: relation
+
+    director:
+        label: Režisér
+        # type: relation
+
+    release:
+        label: Rok vydania
+        # type: relation
+
+    rating:
+        label: Hodnotenie
+        # type: relation
+    poster:
+        label: Plagát
+        type: image
+        sortable: false
+    

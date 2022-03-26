@@ -1,0 +1,20 @@
+1.0.1: First version of Filmy
+1.0.2:
+  - created film director genre rating release
+  - create_directors_table.php
+  - create_films_table.php
+  - create_genres_table.php
+  - create_ratings_table.php
+  - create_releases_table.php
+1.0.3:
+  - update film table
+  - 1_update_films_table.php
+1.0.4:
+  - update film table
+  - 2_update_films_table.php
+1.0.5:
+  - delete 2_update film table
+  - 2_update_films_table.php
+1.0.6:
+  - update poster img
+  - 3_update_films_table.php

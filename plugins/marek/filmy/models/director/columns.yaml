@@ -1,0 +1,17 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Meno
+
+    last_name:
+        label: Priezvisko
+    
+    year_of_birth:
+        label: Rok narodenia
+
